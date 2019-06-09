@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+
+       >
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <ImageView
+               android:id="@+id/user_icon1_r_item"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_centerVertical="true"
+               android:layout_marginLeft="10dp"
+               />
+
+           <TextView
+               android:id="@+id/user_name_r_item"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+
+               android:layout_marginStart="10dp"
+               android:layout_toEndOf="@+id/user_icon1_r_item"
+               android:layout_toStartOf="@id/action_r_item"
+               android:layout_marginTop="5dp"
+               android:text="Jeet"
+               android:textSize="15dp"
+               />
+
+           <TextView
+               android:id="@+id/date_textview_r_item"
+
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/user_name_r_item"
+               android:layout_marginStart="10dp"
+               android:layout_toStartOf="@id/action_r_item"
+               android:layout_marginTop="3dp"
+               android:layout_toEndOf="@+id/user_icon1_r_item"
+               android:textSize="13dp"
+               android:text="2016/374.48" />
+
+           <ImageButton
+               android:id="@+id/action_r_item"
+               android:layout_width="40dp"
+               android:layout_height="35dp"
+               android:layout_centerVertical="true"
+               android:layout_alignParentRight="true"
+               android:background="@drawable/ic_more_vert_black_24dp" />
+
+
+       </RelativeLayout>
+       <TextView
+           android:id="@+id/post_title_r_item"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:textSize="18sp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+
+           />
+       <ImageView
+           android:id="@+id/image_post_r_item"
+           android:layout_marginRight="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="250dp"
+
+
+           />
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           >
+           <ImageButton
+               android:id="@+id/like_image_r_item"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+               android:background="@drawable/ic_thumb_up_black_24dp"
+               />
+
+           <TextView
+               android:id="@+id/like_count_r_item"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toEndOf="@id/like_image_r_item"
+               android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+               android:text="Be the first one to like" />
+       </RelativeLayout>
+       <android.support.v7.widget.RecyclerView
+           android:id="@+id/recyclerview_r_item"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight=".4"
+           >
+
+       </android.support.v7.widget.RecyclerView>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:descendantFocusability="afterDescendants"
+           android:focusableInTouchMode="true"
+
+           >
+
+           <ImageView
+               android:id="@+id/user_icon2_r_item"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_centerVertical="true"
+               android:layout_marginLeft="10dp" />
+
+           <EditText
+               android:id="@+id/edit_comment_r_item"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="10dp"
+               android:layout_marginEnd="5dp"
+               android:layout_toEndOf="@id/user_icon2_r_item"
+                android:layout_toStartOf="@id/send_comment_r_item"
+               android:background="@drawable/shape_round"
+               android:hint="Write Comment"
+               android:paddingLeft="10dp"
+               android:paddingRight="10dp"
+               android:layout_centerVertical="true"
+
+               />
+
+              <ImageButton
+                  android:id="@+id/send_comment_r_item"
+                  android:layout_width="20dp"
+                  android:layout_height="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_alignParentRight="true"
+
+                  android:background="@drawable/ic_send_black_24dp"
+                  android:layout_centerVertical="true"
+
+                  />
+       </RelativeLayout>
+   </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

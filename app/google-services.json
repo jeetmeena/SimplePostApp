@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "789961834291",
+    "firebase_url": "https://simplepostapp-de5a2.firebaseio.com",
+    "project_id": "simplepostapp-de5a2",
+    "storage_bucket": "simplepostapp-de5a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789961834291:android:0d7eb149e909519f",
+        "android_client_info": {
+          "package_name": "com.example.simplepostapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789961834291-q5rdootkrimjb8jmnvckucthv1shshuo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.simplepostapp",
+            "certificate_hash": "aeeb90ae50c43c4155303f569a618c77bdc287be"
+          }
+        },
+        {
+          "client_id": "789961834291-5k1ch9i89gi7ohu5ukvo35rnujvbdgkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz3Ynq0_HqQZw1hlKBoS6D63AOwjUlxjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789961834291-5k1ch9i89gi7ohu5ukvo35rnujvbdgkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
